@@ -1,0 +1,209 @@
+/******* HTML TAGS *******/
+
+h1, h2, h3, h4, h5, h6, p, body {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+}
+
+/******* Title *******/
+@media (max-width: 991px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+  }
+
+}
+
+#title {
+  background-color: white;
+}
+
+.title-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+  margin: auto auto 3.125rem auto;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.download-button {
+  margin-right: 0.625rem;
+}
+
+/******* Navigation Bar *******/
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+}
+
+.nav-item {
+  padding: 1rem;
+  font-size: 1.15rem;
+}
+
+.nav-link {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+/******* Features *******/
+
+#features {
+  background-color: #0004BF;
+  color: whitesmoke;
+  padding: 7% 15%;
+}
+
+.feature-box {
+  padding: 4.5%;
+  text-align: center;
+}
+
+.icons {
+  text-align: center;
+  padding-bottom: 1.25rem;
+}
+
+.icons:hover {
+  color: #4CB1F7;
+}
+
+/******* Testimonials *******/
+#testimonials {
+  text-align: center;
+}
+
+.testimonial-text {
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.doctor-testimonials {
+  border-radius: 100%;
+  width: 10%;
+  display: inline-block;
+}
+
+.doctor-name {
+  font-style: italic;
+  font-weight: 500;
+  padding-left: 1rem;
+  display: inline-block;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+/******* Press *******/
+#press {
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-icon {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/******* Pricing *******/
+#pricing {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #0004BF;
+  color: whitesmoke;
+  padding: 100px;
+}
+
+.pricing-type {
+  font-weight: 700;
+}
+
+
+.pricing-header {
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.price-text {
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.card-header {
+  color: black;
+}
+
+.card-body {
+  color: black;
+}
+
+.pricing {
+  padding: 3% 2%;
+}
+
+/******* Call to Action *******/
+@media (max-width:991px) {
+
+  #cta {
+    text-align: center;
+    padding: 1% 15%;
+  }
+
+  .cta-phrase {
+    padding: inherit 50%;
+    font-weight: 700;
+    font-size: 10rem;
+  }
+
+  .download-button-cta {
+    margin: auto 10px;
+  }
+
+}
+
+#cta {
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.cta-phrase {
+  font-weight: 700;
+}
+
+.download-button-cta {
+  margin: 50px 15px 50px;
+}
+/******* Footer *******/
+
+#footer {
+  text-align: center;
+  background-color: #0004BF;
+  color: #fff;
+  padding-bottom: 10px;
+}
+
+.footer-icon {
+  display: inline-block;
+  margin: 100px 20px 20px;
+}
